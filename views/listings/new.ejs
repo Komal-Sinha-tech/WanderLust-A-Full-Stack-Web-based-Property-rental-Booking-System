@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+</head>
+<body>
+    <h3>Create a new Listing</h3>
+    <form  method="post" action="/listings">
+        <input type="text" name="listing[title]"  placeholder="title of the airbnb">
+        <br>
+    <textarea type="text" name="listing[description]" placeholder="description of the place"></textarea>
+    <br>
+    <input type="number" name="listing[price]" >
+    <br>
+    <input type="text" name="listing[location]"  placeholder="location">
+    <br>
+    <input type="text" name="listing[image]"  placeholder="image">
+    <br>
+    <input type="text" name="listing[country]" placeholder="country">
+    <br>
+    <button>Add</button>
+    </form>
+</body>
+</html>
